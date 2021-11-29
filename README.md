@@ -1,14 +1,14 @@
 # Automation of AT commands testing  
+The purpose of this program is that it is able to test AT commands on the modem of a given product.
+## Requirements
+1. Python (If you dont have python [click here](https://realpython.com/installing-python/))  
 
-## Python libraries  
+Download libraries with [pip](https://pip.pypa.io/en/stable/):  
 
-To be able to use this test download these libraries with [pip](https://pip.pypa.io/en/stable/):  
-(If you dont have python [click here](https://realpython.com/installing-python/))  
-  
-1.**Paramiko**  
+2. **Paramiko**  
 [pip install paramiko](https://www.paramiko.org/installing.html)  
   
-2.**Pyserial**  
+3. **Pyserial**  
 [python -m pip install pyserial](https://pyserial.readthedocs.io/en/latest/pyserial.html)  
 
 ## Example of config file: settings.json
