@@ -5,6 +5,9 @@ class Write:
 
     __csvFile = None
     __file = None
+
+
+
     
     def __init__(self, device, modem):
         self.openFile(device, modem)
