@@ -3,7 +3,7 @@ The purpose of this program is that it is able to test AT commands on the modem 
 ## Requirements
 - Python (If you dont have python [click here](https://realpython.com/installing-python/))  
   
-Python libraries:  
+**Python libraries:**  
   
 - Download libraries with [pip](https://pip.pypa.io/en/stable/):  
 1. **Paramiko**  
