@@ -1,0 +1,126 @@
+{
+  "devices" : 
+  [
+    { 
+      "device": "TRM240",
+      "connection" : "SERIAL",
+      "commands": 
+      [
+        {
+          "command": "ATE1",
+          "param": "",
+          "result": "ERROR"
+        },
+        {
+          "command": "ATI",
+          "param": "",
+          "result": "ERROR"
+        },
+        {
+          "command": "AT+COPS=?",
+          "param": "",
+          "result": "OK"
+        },
+        {
+          "command": "AT+CMGF=1",
+          "param": "",
+          "result": "OK"
+        },
+        {
+          "command": "AT+CMGS=\"+3706\"",
+          "param": "Sample text TRM240",
+          "result": "ERROR"
+        },
+        {
+          "command": "AT+CMGL=?",
+          "param": "",
+          "result": "OK"
+        },
+        {
+          "command": "AT+CMGR=?",
+          "param": "",
+          "result": "OK"
+        }
+      ]
+    },
+    { 
+      "device": "RUTX11",
+      "connection" : "SSH",
+      "commands": 
+      [
+        {
+          "command": "ATI",
+          "param": "",
+          "result": "ERROR"
+        },
+        {
+          "command": "AT+CMGF=1",
+          "param": "",
+          "result": "OK"
+        },
+        {
+          "command": "AT+CMGS=\"+3706\"",
+          "param": "Sample text RUTX11",
+          "result": "OK"
+        },
+        {
+          "command": "AT+COPS=?",
+          "param": "",
+          "result": "OK"
+        },
+        {
+          "command": "ATI",
+          "param": "",
+          "result": "ERROR"
+        },
+        {
+          "command": "AT+CMGL=?",
+          "param": "",
+          "result": "OK"
+        },
+        {
+          "command": "AT+CMGR=?",
+          "param": "",
+          "result": "OK"
+        },
+        {
+          "command": "AT+CGDATA=?",
+          "param": "",
+          "result": "ERROR"
+        },
+        {
+          "command": "AT+CGSMS?",
+          "param": "",
+          "result": "OK"
+        },
+        {
+          "command": "AT+CCLK?",
+          "param": "",
+          "result": "ERROR"
+        },
+        {
+          "command": "AT+CGSMS?",
+          "param": "",
+          "result": "OK"
+        }
+      ]
+    },
+    { 
+      "device": "RUT955",
+      "connection" : "SSH",
+      "commands": 
+      [
+        {
+          "command": "ATI",
+          "param": "",
+          "result": "ERROR"
+        },
+        {
+          "command": "AT+CMGL=?",
+          "param": "",
+          "result": "ERROR"
+        }
+      ]
+    }
+  ]
+}
