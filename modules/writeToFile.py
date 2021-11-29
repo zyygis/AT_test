@@ -6,16 +6,13 @@ class Write:
     __csvFile = None
     __file = None
 
-
-
-    
     def __init__(self, device, modem):
         self.openFile(device, modem)
 
     def openFile(self,device, modem):
         filename = device + f" {datetime.now():%Y-%m-%d_%H:%M:%S}.csv"
         fieldnames = ['Command', 'Expected result', 'Result', 'Test result']
-        self.__file = open(r"/home/studentas/Documents/python/AT_test/Test_report/ " + filename, 'x')
+        self.__file = open(r"/PATH/WHERE/TO/WRITE/CSV/FILE " + filename, 'x')
         try:
             self.writeModem(modem)
             self.__csvFile = csv.DictWriter(self.__file, fieldnames = fieldnames)
