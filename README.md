@@ -1,14 +1,15 @@
 # Automation of AT commands testing  
 The purpose of this program is that it is able to test AT commands on the modem of a given product.
 ## Requirements
-1. Python (If you dont have python [click here](https://realpython.com/installing-python/))  
-
-Download libraries with [pip](https://pip.pypa.io/en/stable/):  
-
-2. **Paramiko**  
+- Python (If you dont have python [click here](https://realpython.com/installing-python/))  
+  
+Python libraries:  
+  
+- Download libraries with [pip](https://pip.pypa.io/en/stable/):  
+1. **Paramiko**  
 [pip install paramiko](https://www.paramiko.org/installing.html)  
   
-3. **Pyserial**  
+2. **Pyserial**  
 [python -m pip install pyserial](https://pyserial.readthedocs.io/en/latest/pyserial.html)  
 
 ## Example of config file: settings.json
@@ -66,8 +67,8 @@ Download libraries with [pip](https://pip.pypa.io/en/stable/):
   -u / --username Username  
   -p / --password Password  
   
-  -d(device name) and -a(port or ip address) is required arguments to start test.  
+ **-d(device name) and -a(port or ip address) is required arguments to start test.**  
     
 5. In terminal type:  
-  python3 main.py -a /dev/ttyUSB3 -d trm240      ---this is example for SERIAL connection type.   
-  python3 main.py -a 192.168.1.1 -d rutx11 -u admin -p admin      ---this is example for SSH connection type.  
+  python3 main.py -a /dev/ttyUSB3 -d trm240     -- **this is example for SERIAL connection type.**   
+  python3 main.py -a 192.168.1.1 -d rutx11 -u admin -p admin     -- **this is example for SSH connection type.**  
