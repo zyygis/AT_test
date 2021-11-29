@@ -58,15 +58,16 @@ To be able to use this test download these libraries with [pip](https://pip.pypa
 ## Instructions how to use
 
 1. Fill in needed information to config file as shown above.
-2. Go to modules folder open writeToFile.py Module, in 15 line write path where .csv files will be created.
-3. Open terminal go to AT_test folder example( user@computer123:~/Documents/python/AT_test$ )
+2. In writeToFile.py module, in 15 line write path where .csv files will be created.
+3. In terminal go to AT_test folder example( user@computer123:~/Documents/python/AT_test$ ).
 4. Command line arguments:  
   -d / --device Device name  
   -a / --address port/Ip address  
   -u / --username Username  
-  -p , --password Password  
+  -p / --password Password  
   
   -d(device name) and -a(port or ip address) is required arguments to start test.  
+    
 5. In terminal type:  
   python3 main.py -a /dev/ttyUSB3 -d trm240      ---this is example for SERIAL connection type.   
   python3 main.py -a 192.168.1.1 -d rutx11 -u admin -p admin      ---this is example for SSH connection type.  
