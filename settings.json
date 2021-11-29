@@ -60,7 +60,7 @@
         },
         {
           "command": "AT+CMGS=\"+3706\"",
-          "param": "Sample text RUTX11",
+          "param": "Sample text RUTX",
           "result": "OK"
         },
         {
